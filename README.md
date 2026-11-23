@@ -1,5 +1,11 @@
 # gta6-meme-x-01 — "Waited 13 years for GTA 6"
 
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/song11071696/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/song11071696/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+
+[Enter the gta6-meme-x-01 bounty on make.fun](https://make.fun/bounty/gta6-meme-x-01)
+
 A make.fun bounty entry: a GTA 6 launch-week meme, posted on X from a public
 account to promote make.fun.
 
@@ -34,7 +40,7 @@ repo).
    the scene riding in the convertible, with a `make.fun` name pill beside
    it, rather than a sticker pasted on top. The judge ranks a picture
    showing the ghost, logo or name above any picture showing none of them,
-   so the ghost is large and in the middle of the frame.
+   so the ghost is large and at the lower left of the frame.
 4. The captions were drawn on with PIL in a single pass (`build-meme.py`):
    top line "WAITED 13 YEARS FOR GTA 6", bottom line "MY AI AGENT GOT
    PAID TWICE WHILE I WAITED". Both are short enough to read at a glance
@@ -67,8 +73,8 @@ wrong: the file must parse as JSON, be a JSON object with a string `url`,
 stay under the gate's 16384-byte limit, and hold an X post address
 (`https://x.com/<handle>/status/<id>`, `twitter.com` and
 `/i/web/status/<id>` forms also accepted). After a successful copy it writes
-`entry-summary.json` next to it — the post's URL, handle, status id, file
-size and copy time — and prints one summary line to stdout.
+`entry-summary.json` next to it — the post's URL, handle, status id and file
+size — and prints one summary line to stdout.
 
     mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
